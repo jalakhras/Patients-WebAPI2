@@ -7,10 +7,14 @@ using System.Web.Http;
 
 namespace WebApi2.Controllers
 {
-    [Authorize]
+   // [Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values
+        /// <summary>
+        /// This is sampel documentation , Cratred by Jassar 
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
