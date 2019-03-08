@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi2", "WebApi2\WebApi2.csproj", "{04E57CC8-00FA-4177-9470-48A80B00A184}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorsClient", "CorsClient\CorsClient.csproj", "{259BF0FA-8B12-4919-B18A-8A4EF7FF3830}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{04E57CC8-00FA-4177-9470-48A80B00A184}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04E57CC8-00FA-4177-9470-48A80B00A184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04E57CC8-00FA-4177-9470-48A80B00A184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{259BF0FA-8B12-4919-B18A-8A4EF7FF3830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259BF0FA-8B12-4919-B18A-8A4EF7FF3830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259BF0FA-8B12-4919-B18A-8A4EF7FF3830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259BF0FA-8B12-4919-B18A-8A4EF7FF3830}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

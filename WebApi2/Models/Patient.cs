@@ -18,13 +18,20 @@ namespace WebApi2.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public int Doses { get; set; }
-       
+        [ForeignKey("Patient")]
+        public int? Patient_Id { get; set; }
+        public Patient Patient { get; set; }
+
     }
 
     public class Ailment
     {
         public int Id { get; set; }
         public string Name { get; set; }
-      
+
+        [ForeignKey("Patient")]
+        public int? Patient_Id { get; set; }
+        public Patient Patient { get; set; }
+
     }
 }
