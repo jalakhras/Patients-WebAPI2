@@ -1,4 +1,6 @@
-﻿using System.Security.Claims;
+﻿using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
@@ -24,10 +26,13 @@ namespace WebApi2.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-        
+        public DbSet<Patient> Patients { get; set; }
+        public DbSet<Ailment> Ailments { get; set; }
+        public DbSet<Medication> Medications { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
         }
+       
     }
 }
